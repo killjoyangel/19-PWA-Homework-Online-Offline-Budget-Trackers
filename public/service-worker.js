@@ -1,4 +1,3 @@
-console.log("working")
 const FILES_TO_CACHE = [
   '/',
   '/index.html',
