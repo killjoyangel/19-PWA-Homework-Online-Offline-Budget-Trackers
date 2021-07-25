@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/nameless-escarpment',
+  process.env.MONGODB_URI || 'mongodb://localhost/OfflineDB',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
