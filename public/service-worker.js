@@ -1,15 +1,14 @@
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/index.js',
-  '/styles.css',
-  '/db.js',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
-  '/manifest.webmanifest',
-  '/normalize.min.css',
-
+  "/",
+  "/index.html",
+  "/styles.css",
+  "/index.js",
+  "/indexedDb.js",
+  "/manifest.webmanifest",
+  "/icons/icon-192x192.png",
+  "/icons/icon-512x512.png",
 ];
+
 const CACHE_NAME = "static-cache-v1";
 const DATA_CACHE_NAME = "data-cache";
 
