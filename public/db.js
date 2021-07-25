@@ -23,7 +23,6 @@ request.onerror = function (e) {
 };
 
 function checkDatabase() {
-  console.log('check db invoked');
   let transaction = db.transaction(['BudgetStore'], 'readwrite');
 
   const store = transaction.objectStore('BudgetStore');
@@ -57,10 +56,8 @@ function checkDatabase() {
 }
 
 request.onsuccess = function (e) {
-  console.log('success');
   db = e.target.result;
   if (navigator.onLine) {
-    console.log('Backend online! 🗄️');
     checkDatabase();
   }
 };
